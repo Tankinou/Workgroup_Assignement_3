@@ -11,7 +11,6 @@ scissors = "scissors"
 
 
 def rock_paper_scissors(player1, player2):
-    "this function hardcodes the respective results"
     if player1 == "rock" and player2 == "paper":
         return "Player 2 won"
     elif player1 == "paper" and player2 == "rock":

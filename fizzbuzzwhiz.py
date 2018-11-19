@@ -7,8 +7,6 @@ Created on Sun Nov 18 18:21:31 2018
 """
 #%%
 
-
-
 def checkprime(num):
     if num < 2:
         return False

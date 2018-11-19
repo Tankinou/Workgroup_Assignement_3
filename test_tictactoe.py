@@ -7,7 +7,6 @@ Created on Fri Nov 16 09:21:47 2018
 #%%
 from tictactoe import solved_tictactoe
 
-
 board = [
 ['x', 'o', 'x'],
 ['o', 'x', 'o'],
@@ -43,12 +42,15 @@ board5 = [
 ]
 
 
-def test_ddd():
+def test_tictactoe():
     assert solved_tictactoe(board) == True
     assert solved_tictactoe(board2) == True
     assert solved_tictactoe(board3) == True
     assert solved_tictactoe(board4) == False
     assert solved_tictactoe(board5) == True
+    
+    
+    
     
     
     

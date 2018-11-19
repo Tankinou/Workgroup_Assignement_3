@@ -1,5 +1,8 @@
 [
   "test_RPS.py::test_rock_paper_scissors",
   "test_RPSLS.py::test_rock_paper_scissors_lizard_spock",
+  "test_String_calculator.py::test_stringcalc_return_sum",
+  "test_String_calculator.py::test_stringcalc_return_zero",
+  "test_String_calculator.py::test_stringcalc_return_unusual",
   "test_tictactoe.py::test_ddd"
 ]

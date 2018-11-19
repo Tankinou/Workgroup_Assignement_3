@@ -31,7 +31,7 @@ board3 = [
 board4 = [
 ['x', 'x', 'x','o'],
 ['x', 'x', 'o','x'],
-['x', 'x', 'x','o'],
+['x', 'o', 'x','o'],
 ['o', 'x', 'x','o']
 ]
 
@@ -43,12 +43,12 @@ board5 = [
 ]
 
 
-def test_horizontal():
-    assert solved_tictactoe(board) == solved
-    assert solved_tictactoe(board2) == solved
-    assert solved_tictactoe(board3) == solved
+def test_ddd():
+    assert solved_tictactoe(board) == True
+    assert solved_tictactoe(board2) == True
+    assert solved_tictactoe(board3) == True
     assert solved_tictactoe(board4) == False
-    assert solved_tictactoe(board5) == solved
+    assert solved_tictactoe(board5) == True
     
     
     

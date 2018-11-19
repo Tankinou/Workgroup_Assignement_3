@@ -1,3 +1,5 @@
 [
-  "test_RPS.py::test_rock_paper_scissors"
+  "test_RPS.py::test_rock_paper_scissors",
+  "test_RPSLS.py::test_rock_paper_scissors_lizard_spock",
+  "test_tictactoe.py::test_ddd"
 ]

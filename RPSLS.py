@@ -62,7 +62,7 @@ def rock_paper_scissors_lizard_spock(player1, player2):
 #Alternative solution :)    
         
     
-def rock_paper_scissors_spock_inCool(player1,player2):
+def rock_paper_scissors_lizard_spock_inCool(player1,player2):
     key = {"rock":0,"spock":1,"paper":2,"lizard":3,"scissors":4}
     n1 = key[player1]
     n2 = key[player2]
